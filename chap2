@@ -1,0 +1,25 @@
+--create a new dir 
+--vagrant commit -m
+--nano the vagrant config file
+
+as a test example you could put:
+
+
+Vagrant.configure("2") do |config|
+  config.vm.provider "docker" do |d|
+    d.image = "ghost"
+  end  
+end
+
+
+d.image should be a valid example 
+
+
+once done 
+
+--vagrant up :  this will start the image
+--vagrant halt :  to stop the contaner
+--vagrant status  : this should give the status of the all the containers that you have start with vagrantfile
+--vagrant destroy -f  : this should destroy the container
+
+

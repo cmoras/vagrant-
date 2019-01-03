@@ -1,0 +1,7 @@
+--install the centos image. or a dockerised image.
+--get the path form vagrant site.
+--yum install -y path.
+
+check version to see if it works.
+
+
